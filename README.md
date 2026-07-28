@@ -88,7 +88,7 @@ A professional scikit-learn preprocessing pipeline was used to avoid data leakag
 * Encoding using `OneHotEncoder(handle_unknown="ignore")`
 
 ### Pipeline Structure
-
+---
 ```
 Raw Data
    ↓
@@ -102,7 +102,7 @@ ColumnTransformer
    ↓
 Random Forest Classifier
 ```
-
+---
 ---
 
 ## Models Trained
